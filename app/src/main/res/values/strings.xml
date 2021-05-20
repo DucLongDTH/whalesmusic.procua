@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Whales Music</string>
+    <string name="action_home">Home</string>
+    <string name="action_list">List Song</string>
+    <string name="action_like">Favourite</string>
+    <string name="vpop_artist">VPOP ARTISTS </string>
+    <string name="vpop_artist1"> Sơn Tùng MTP </string>
+    <string name="vpop_artist2"> BinZ </string>
+    <string name="vpop_artist3"> Đen </string>
+    <string name="vpop_artist4"> Thái Vũ </string>
+    <string name="kpop_artist">KPOP ARTISTS </string>
+    <string name="kpop_artist1"> TWICE </string>
+    <string name="kpop_artist2"> BLACK PINK </string>
+    <string name="kpop_artist3"> Han Sara </string>
+    <string name="kpop_artist4"> Kim Taeyeon </string>
+</resources>

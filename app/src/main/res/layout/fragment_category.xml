@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/bgColor">
+
+        <TextView
+            android:id="@+id/cate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:drawableStart="@drawable/round_stars_black_48dp"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center_vertical"
+            android:text="@string/vpop_artist"
+            android:textColor="?attr/txtColor"
+            android:textSize="20dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/hs_cate1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cate1"
+            android:layout_marginTop="20dp"
+            android:background="?attr/bgColor"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/bgColor"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?bgColor"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+                        <ImageView
+                            android:id="@+id/avt1v"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs1v"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist1"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt1v" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt2v"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs2v"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist2"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt2v" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt3v"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs3v"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist3"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt3v" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt4v"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs4v"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist4"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt4v" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/cate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hs_cate1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/round_stars_black_48dp"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center_vertical"
+            android:text="@string/kpop_artist"
+            android:textColor="?attr/txtColor"
+            android:textSize="20dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/hs_cate2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cate2"
+            android:layout_marginTop="20dp"
+            android:background="?attr/bgColor"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/bgColor"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist1"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt1" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist2"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt2" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist3"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt3" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="?attr/bgColor"
+                    android:outlineAmbientShadowColor="@color/teal_700"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="1dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_artist">
+
+                        <ImageView
+                            android:id="@+id/avt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="?attr/bgColor"
+                            android:src="@drawable/baseline_person_pin_teal_500_36dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <TextView
+                            android:id="@+id/cs4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/vpop_artist4"
+                            android:textColor="@color/teal_700"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/avt4" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </RelativeLayout>
+</layout>

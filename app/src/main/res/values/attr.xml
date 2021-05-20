@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="light">
+        <attr name="bgColor" format="color"></attr>
+        <attr name="txtColor" format="color"></attr>
+        <attr name="txtColorDF" format="color"></attr>
+        <attr name="tintColor" format="color"></attr>
+    </declare-styleable>
+</resources>
